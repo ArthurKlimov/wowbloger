@@ -7,30 +7,31 @@ using WowBloger.Blogs;
 using WowBloger.BlogServices.Dto;
 using System.Collections.Generic;
 using Abp.Runtime.Session;
+using Abp.UI;
+using Abp.Authorization;
+using WowBloger.Authorization;
 
 namespace WowBloger.BlogServices
 {
     public class BlogAppService : AsyncCrudAppService<Blog, BlogDto, Guid, PagedBlogResultRequestDto, CreateBlogDto, BlogDto>, IBlogAppService
     {
         private readonly IRepository<Blog, Guid> _blogRepository;
-        private readonly IAbpSession _abpSession;
 
         public BlogAppService(IRepository<Blog, Guid> blogRepository, IAbpSession abpSession) : base(blogRepository)
         {
             _blogRepository = blogRepository;
-            _abpSession = abpSession;
         }
 
+        [AbpAuthorize(PermissionNames.Pages_Blogs)]
         public override async Task<BlogDto> CreateAsync(CreateBlogDto input)
         {
-
-
             var blog = ObjectMapper.Map<Blog>(input);
             await _blogRepository.InsertAsync(blog);
 
             return MapToEntityDto(blog);
         }
 
+        [AbpAuthorize(PermissionNames.Pages_Blogs)]
         public override async Task DeleteAsync(EntityDto<Guid> input)
         {
             var blog = await _blogRepository.FirstOrDefaultAsync(x => x.Id == input.Id);
@@ -54,6 +55,7 @@ namespace WowBloger.BlogServices
             return blog != null ? MapToEntityDto(blog) : new BlogDto();
         }
 
+        [AbpAuthorize(PermissionNames.Pages_Blogs)]
         public override async Task<BlogDto> UpdateAsync(BlogDto input)
         {
             var blog = await _blogRepository.FirstOrDefaultAsync(x => x.Id == input.Id);
