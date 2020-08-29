@@ -158,3 +158,368 @@ INFO  2020-08-28 15:54:00,188 [10   ] c.Infrastructure.ControllerActionInvoker -
 INFO  2020-08-28 15:54:00,191 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
 INFO  2020-08-28 15:54:00,194 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 315.1522ms 200 application/json; charset=utf-8
 INFO  2020-08-28 15:54:00,222 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 299.0335ms 200 application/json;charset=utf-8
+DEBUG 2020-08-29 15:33:04,932 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-29 15:33:05,092 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-29 15:33:05,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.Web.Host.Startup.WowBlogerWebHostModule, WowBloger.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerWebCoreModule, WowBloger.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerApplicationModule, WowBloger.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerCoreModule, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.EntityFrameworkCore.WowBlogerEntityFrameworkModule, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:05,115 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-29 15:33:05,196 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:33:05,197 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:33:05,197 [1    ] o.Configuration.LanguageManagementConfig - Converted WowBloger (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:33:05,197 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:33:05,627 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: WowBloger.EntityFrameworkCore.WowBlogerDbContext, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:33:06,640 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-29 15:33:06,721 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-29 15:33:06,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-29 15:33:06,821 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WowBloger
+DEBUG 2020-08-29 15:33:06,867 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-29 15:33:07,093 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-29 15:33:07,241 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[WowBloger.MultiTenancy.Tenant, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[WowBloger.Authorization.Users.User, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-29 15:33:07,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-08-29 15:33:07,300 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-29 15:33:07,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.CreateUserDto
+DEBUG 2020-08-29 15:33:07,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.UserDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Roles.Dto.PermissionDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.BlogDto
+DEBUG 2020-08-29 15:33:07,307 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.CreateBlogDto
+INFO  2020-08-29 15:33:09,971 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-29 15:33:10,446 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\evkli\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-29 15:33:10,535 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-08-29 15:33:10,659 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:33:14,501 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WowBloger.Web.Host.Controllers.HomeController (WowBloger.Web.Host).
+INFO  2020-08-29 15:33:15,754 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-08-29 15:33:15,763 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host) in 1255.1885ms
+INFO  2020-08-29 15:33:15,765 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:33:15,784 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5249.2726ms 302 
+INFO  2020-08-29 15:33:15,807 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-08-29 15:33:15,833 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.7975ms 301 
+INFO  2020-08-29 15:33:15,841 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-08-29 15:33:15,886 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.0042ms 200 text/html;charset=utf-8
+INFO  2020-08-29 15:33:15,943 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-08-29 15:33:15,945 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-08-29 15:33:15,947 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-08-29 15:33:15,949 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-08-29 15:33:15,950 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-08-29 15:33:15,965 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-08-29 15:33:15,965 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-08-29 15:33:15,967 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.0739ms 200 application/javascript
+INFO  2020-08-29 15:33:15,968 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.3784ms 200 application/javascript
+INFO  2020-08-29 15:33:15,988 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-08-29 15:33:15,993 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:33:15,994 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.486ms 200 text/css
+INFO  2020-08-29 15:33:15,996 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.2359ms 200 application/javascript
+INFO  2020-08-29 15:33:16,023 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:33:16,024 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 79.92ms 200 application/javascript
+INFO  2020-08-29 15:33:17,250 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-08-29 15:33:17,256 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:33:17,266 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller WowBloger.Web.Host.Controllers.AntiForgeryController (WowBloger.Web.Host).
+INFO  2020-08-29 15:33:17,289 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-08-29 15:33:17,367 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 15:33:17,371 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-08-29 15:33:17,376 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-08-29 15:33:17,407 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.3512ms 404 
+INFO  2020-08-29 15:33:17,415 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27.8987ms 404 
+ERROR 2020-08-29 15:33:17,533 [8    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "17942340917054668811", Request ID "8000000d-0000-f900-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NotSupportedException: Conflicting method/path combination "DELETE api/services/app/Blog/Delete" for actions - WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application),WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2020-08-29 15:33:17,541 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 255.6737ms 500 
+INFO  2020-08-29 15:33:17,578 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host) in 308.6778ms
+INFO  2020-08-29 15:33:17,582 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:33:17,587 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 341.8724ms 200 application/json; charset=utf-8
+DEBUG 2020-08-29 15:38:14,918 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-29 15:38:14,995 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-29 15:38:15,012 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.Web.Host.Startup.WowBlogerWebHostModule, WowBloger.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerWebCoreModule, WowBloger.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerApplicationModule, WowBloger.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerCoreModule, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,015 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.EntityFrameworkCore.WowBlogerEntityFrameworkModule, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,016 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:15,020 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-29 15:38:15,097 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:38:15,097 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:38:15,097 [1    ] o.Configuration.LanguageManagementConfig - Converted WowBloger (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:38:15,097 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:38:15,513 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: WowBloger.EntityFrameworkCore.WowBlogerDbContext, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:38:16,508 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-29 15:38:16,576 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-29 15:38:16,630 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-29 15:38:16,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WowBloger
+DEBUG 2020-08-29 15:38:16,697 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-29 15:38:16,951 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-29 15:38:17,117 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[WowBloger.MultiTenancy.Tenant, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[WowBloger.Authorization.Users.User, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-29 15:38:17,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-08-29 15:38:17,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-29 15:38:17,180 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.CreateUserDto
+DEBUG 2020-08-29 15:38:17,180 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.UserDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Roles.Dto.PermissionDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.BlogDto
+DEBUG 2020-08-29 15:38:17,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.CreateBlogDto
+INFO  2020-08-29 15:38:19,785 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-29 15:38:20,070 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\evkli\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-29 15:38:20,143 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-08-29 15:38:20,243 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:38:23,805 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WowBloger.Web.Host.Controllers.HomeController (WowBloger.Web.Host).
+INFO  2020-08-29 15:38:25,077 [8    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-08-29 15:38:25,087 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host) in 1275.2542ms
+INFO  2020-08-29 15:38:25,089 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:38:25,107 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4964.0471ms 302 
+INFO  2020-08-29 15:38:25,125 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-08-29 15:38:25,155 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.1983ms 301 
+INFO  2020-08-29 15:38:25,162 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-08-29 15:38:25,204 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.0756ms 200 text/html;charset=utf-8
+INFO  2020-08-29 15:38:25,250 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-08-29 15:38:25,252 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-08-29 15:38:25,254 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-08-29 15:38:25,257 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-08-29 15:38:25,258 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-08-29 15:38:25,274 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-08-29 15:38:25,274 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-08-29 15:38:25,277 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.033ms 200 application/javascript
+INFO  2020-08-29 15:38:25,278 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.8519ms 200 application/javascript
+INFO  2020-08-29 15:38:25,298 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-08-29 15:38:25,299 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:38:25,304 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.9248ms 200 application/javascript
+INFO  2020-08-29 15:38:25,307 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 54.1862ms 200 text/css
+INFO  2020-08-29 15:38:25,309 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:38:25,312 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 61.0572ms 200 application/javascript
+INFO  2020-08-29 15:38:25,530 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-08-29 15:38:25,541 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:38:25,555 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller WowBloger.Web.Host.Controllers.AntiForgeryController (WowBloger.Web.Host).
+INFO  2020-08-29 15:38:25,571 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-08-29 15:38:25,627 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 15:38:25,783 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-08-29 15:38:25,785 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-08-29 15:38:25,820 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.1772ms 404 
+INFO  2020-08-29 15:38:25,832 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.7293ms 404 
+ERROR 2020-08-29 15:38:25,835 [8    ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18158513703463419935", Request ID "80000021-0001-fc00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NotSupportedException: Conflicting method/path combination "DELETE api/services/app/Blog/Delete" for actions - WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application),WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2020-08-29 15:38:25,840 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 268.1014ms 500 
+INFO  2020-08-29 15:38:25,870 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host) in 305.8474ms
+INFO  2020-08-29 15:38:25,871 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:38:25,873 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 344.6723ms 200 application/json; charset=utf-8
+DEBUG 2020-08-29 15:52:49,343 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-29 15:52:49,425 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-29 15:52:49,442 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.Web.Host.Startup.WowBlogerWebHostModule, WowBloger.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerWebCoreModule, WowBloger.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerApplicationModule, WowBloger.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerCoreModule, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.EntityFrameworkCore.WowBlogerEntityFrameworkModule, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:49,451 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-29 15:52:49,523 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:52:49,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:52:49,523 [1    ] o.Configuration.LanguageManagementConfig - Converted WowBloger (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:52:49,523 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 15:52:49,954 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: WowBloger.EntityFrameworkCore.WowBlogerDbContext, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 15:52:50,891 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-29 15:52:50,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-29 15:52:51,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-29 15:52:51,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WowBloger
+DEBUG 2020-08-29 15:52:51,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-29 15:52:51,284 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-29 15:52:51,424 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[WowBloger.MultiTenancy.Tenant, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[WowBloger.Authorization.Users.User, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-29 15:52:51,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-08-29 15:52:51,486 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-29 15:52:51,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.CreateUserDto
+DEBUG 2020-08-29 15:52:51,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.UserDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Roles.Dto.PermissionDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.BlogDto
+DEBUG 2020-08-29 15:52:51,494 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.CreateBlogDto
+INFO  2020-08-29 15:52:54,103 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-29 15:52:54,387 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\evkli\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-29 15:52:54,454 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-08-29 15:52:54,562 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:52:58,361 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WowBloger.Web.Host.Controllers.HomeController (WowBloger.Web.Host).
+INFO  2020-08-29 15:52:59,643 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-08-29 15:52:59,651 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host) in 1283.2586ms
+INFO  2020-08-29 15:52:59,654 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 15:52:59,673 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5219.5282ms 302 
+INFO  2020-08-29 15:52:59,688 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-08-29 15:52:59,715 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.769ms 301 
+INFO  2020-08-29 15:52:59,722 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-08-29 15:52:59,762 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.7662ms 200 text/html;charset=utf-8
+INFO  2020-08-29 15:52:59,806 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-08-29 15:52:59,807 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-08-29 15:52:59,810 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-08-29 15:52:59,812 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-08-29 15:52:59,813 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-08-29 15:52:59,832 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-08-29 15:52:59,834 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-08-29 15:52:59,837 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.4048ms 200 application/javascript
+INFO  2020-08-29 15:52:59,837 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.2227ms 200 application/javascript
+INFO  2020-08-29 15:52:59,870 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-08-29 15:52:59,871 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:52:59,873 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-08-29 15:52:59,875 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.3305ms 200 application/javascript
+INFO  2020-08-29 15:52:59,876 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.3624ms 200 application/javascript
+INFO  2020-08-29 15:52:59,878 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.2889ms 200 text/css
+INFO  2020-08-29 15:53:00,106 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-08-29 15:53:00,111 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:53:00,126 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller WowBloger.Web.Host.Controllers.AntiForgeryController (WowBloger.Web.Host).
+INFO  2020-08-29 15:53:00,148 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-08-29 15:53:00,164 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 15:53:00,283 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js.map  
+INFO  2020-08-29 15:53:00,290 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js.map  
+INFO  2020-08-29 15:53:00,307 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22.6898ms 404 
+INFO  2020-08-29 15:53:00,309 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.7284ms 404 
+INFO  2020-08-29 15:53:00,374 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host) in 243.4716ms
+INFO  2020-08-29 15:53:00,376 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 15:53:00,379 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 272.992ms 200 application/json; charset=utf-8
+INFO  2020-08-29 15:53:00,408 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 260.413ms 200 application/json;charset=utf-8
+DEBUG 2020-08-29 16:34:36,912 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-29 16:34:37,003 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-29 16:34:37,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.Web.Host.Startup.WowBlogerWebHostModule, WowBloger.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerWebCoreModule, WowBloger.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerApplicationModule, WowBloger.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.WowBlogerCoreModule, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: WowBloger.EntityFrameworkCore.WowBlogerEntityFrameworkModule, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:37,028 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-29 16:34:37,106 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 16:34:37,106 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 16:34:37,106 [1    ] o.Configuration.LanguageManagementConfig - Converted WowBloger (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 16:34:37,106 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-29 16:34:37,533 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: WowBloger.EntityFrameworkCore.WowBlogerDbContext, WowBloger.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-29 16:34:38,534 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-29 16:34:38,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-29 16:34:38,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-29 16:34:38,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: WowBloger
+DEBUG 2020-08-29 16:34:38,720 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-29 16:34:38,943 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-29 16:34:39,088 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[WowBloger.MultiTenancy.Tenant, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[WowBloger.Authorization.Users.User, WowBloger.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-29 16:34:39,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-08-29 16:34:39,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-29 16:34:39,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.CreateUserDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Users.Dto.UserDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.Roles.Dto.PermissionDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.BlogDto
+DEBUG 2020-08-29 16:34:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - WowBloger.BlogServices.Dto.CreateBlogDto
+INFO  2020-08-29 16:34:41,717 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-29 16:34:42,019 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\evkli\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-29 16:34:42,090 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-08-29 16:34:42,186 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 16:34:45,875 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WowBloger.Web.Host.Controllers.HomeController (WowBloger.Web.Host).
+INFO  2020-08-29 16:34:47,094 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-08-29 16:34:47,103 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host) in 1221.274ms
+INFO  2020-08-29 16:34:47,106 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.HomeController.Index (WowBloger.Web.Host)'
+INFO  2020-08-29 16:34:47,124 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5033.4777ms 302 
+INFO  2020-08-29 16:34:47,143 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-08-29 16:34:47,167 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.8163ms 301 
+INFO  2020-08-29 16:34:47,176 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-08-29 16:34:47,217 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.9374ms 200 text/html;charset=utf-8
+INFO  2020-08-29 16:34:47,277 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-08-29 16:34:47,284 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-08-29 16:34:47,293 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-08-29 16:34:47,298 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-08-29 16:34:47,300 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-08-29 16:34:47,320 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-08-29 16:34:47,320 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\WowBlog\5.7.0\aspnet-core\src\WowBloger.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-08-29 16:34:47,325 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.6822ms 200 application/javascript
+INFO  2020-08-29 16:34:47,334 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 59.1977ms 200 application/javascript
+INFO  2020-08-29 16:34:47,341 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-08-29 16:34:47,345 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 73.9065ms 200 text/css
+INFO  2020-08-29 16:34:47,347 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-08-29 16:34:47,349 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.2712ms 200 application/javascript
+INFO  2020-08-29 16:34:47,352 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-08-29 16:34:47,354 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 80.9351ms 200 application/javascript
+INFO  2020-08-29 16:34:47,710 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-08-29 16:34:47,716 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 16:34:47,735 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller WowBloger.Web.Host.Controllers.AntiForgeryController (WowBloger.Web.Host).
+INFO  2020-08-29 16:34:47,765 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-08-29 16:34:47,806 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 16:34:47,815 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-08-29 16:34:47,836 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-08-29 16:34:47,841 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.575ms 200 image/png
+INFO  2020-08-29 16:34:47,957 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host) in 214.5632ms
+INFO  2020-08-29 16:34:47,967 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.4597ms 200 application/json;charset=utf-8
+INFO  2020-08-29 16:34:47,969 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.Web.Host.Controllers.AntiForgeryController.SetCookie (WowBloger.Web.Host)'
+INFO  2020-08-29 16:34:47,978 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 263.2572ms 200 application/json; charset=utf-8
+INFO  2020-08-29 16:35:03,743 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Blog/Create application/json-patch+json 18
+INFO  2020-08-29 16:35:03,749 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-08-29 16:35:03,751 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-08-29 16:35:03,757 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.BlogServices.BlogAppService.CreateAsync (WowBloger.Application)'
+INFO  2020-08-29 16:35:03,778 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Blog"}. Executing controller action with signature System.Threading.Tasks.Task`1[WowBloger.BlogServices.Dto.BlogDto] CreateAsync(WowBloger.BlogServices.Dto.CreateBlogDto) on controller WowBloger.BlogServices.BlogAppService (WowBloger.Application).
+INFO  2020-08-29 16:35:04,376 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 16:35:04,388 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.BlogServices.BlogAppService.CreateAsync (WowBloger.Application) in 607.6156ms
+INFO  2020-08-29 16:35:04,391 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.BlogServices.BlogAppService.CreateAsync (WowBloger.Application)'
+INFO  2020-08-29 16:35:04,393 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 651.6467ms 200 application/json; charset=utf-8
+INFO  2020-08-29 16:36:13,206 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/Blog/Delete?Id=A1B05061-0F85-49AB-6886-08D84C205649  
+INFO  2020-08-29 16:36:13,210 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-08-29 16:36:13,212 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-08-29 16:36:13,217 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application)'
+INFO  2020-08-29 16:36:13,229 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "Blog"}. Executing controller action with signature System.Threading.Tasks.Task DeleteAsync(Abp.Application.Services.Dto.EntityDto`1[System.Guid]) on controller WowBloger.BlogServices.BlogAppService (WowBloger.Application).
+INFO  2020-08-29 16:36:13,335 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-29 16:36:13,339 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application) in 106.5156ms
+INFO  2020-08-29 16:36:13,341 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'WowBloger.BlogServices.BlogAppService.DeleteAsync (WowBloger.Application)'
+INFO  2020-08-29 16:36:13,344 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 138.2429ms 200 application/json; charset=utf-8
