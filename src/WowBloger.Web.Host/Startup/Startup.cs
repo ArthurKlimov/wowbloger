@@ -48,6 +48,8 @@ namespace WowBloger.Web.Host.Startup
                 {
                     NamingStrategy = new CamelCaseNamingStrategy()
                 };
+
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
             });
 
 

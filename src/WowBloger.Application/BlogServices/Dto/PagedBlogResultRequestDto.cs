@@ -4,6 +4,6 @@ namespace WowBloger.BlogServices.Dto
 {
     public class PagedBlogResultRequestDto : PagedResultRequestDto
     {
-
+        
     }
 }

@@ -10,61 +10,38 @@ using Abp.Runtime.Session;
 using Abp.UI;
 using Abp.Authorization;
 using WowBloger.Authorization;
+using System.Linq;
+using System.Linq.Dynamic.Core;
+using Microsoft.EntityFrameworkCore;
 
 namespace WowBloger.BlogServices
 {
+    [AbpAuthorize(PermissionNames.Pages_Blogs)]
     public class BlogAppService : AsyncCrudAppService<Blog, BlogDto, Guid, PagedBlogResultRequestDto, CreateBlogDto, BlogDto>, IBlogAppService
     {
         private readonly IRepository<Blog, Guid> _blogRepository;
 
-        public BlogAppService(IRepository<Blog, Guid> blogRepository, IAbpSession abpSession) : base(blogRepository)
+        public BlogAppService(IRepository<Blog, Guid> blogRepository) : base(blogRepository)
         {
             _blogRepository = blogRepository;
         }
-
-        [AbpAuthorize(PermissionNames.Pages_Blogs)]
-        public override async Task<BlogDto> CreateAsync(CreateBlogDto input)
+        
+        [AbpAllowAnonymous]
+        public async Task<PagedResultDto<BlogDto>> GetAllByPopularity(PagedBlogResultRequestDto input)
         {
-            var blog = ObjectMapper.Map<Blog>(input);
-            await _blogRepository.InsertAsync(blog);
+            var blogs = await _blogRepository.GetAllIncluding(x => x.Articles)
+                                             .OrderByDescending(x => x.Articles.Count)
+                                             .ToListAsync();
 
-            return MapToEntityDto(blog);
-        }
+            var count = blogs.Count;
 
-        [AbpAuthorize(PermissionNames.Pages_Blogs)]
-        public override async Task DeleteAsync(EntityDto<Guid> input)
-        {
-            var blog = await _blogRepository.FirstOrDefaultAsync(x => x.Id == input.Id);
-            if (blog != null)
-            {
-                await _blogRepository.DeleteAsync(blog);
-            }
-        }
+            blogs = blogs.Skip(input.SkipCount)
+                         .Take(input.MaxResultCount)
+                         .ToList();
 
-        public override async Task<PagedResultDto<BlogDto>> GetAllAsync(PagedBlogResultRequestDto input)
-        {
-            var blogs = await _blogRepository.GetAllListAsync();
+            var blogDtos = ObjectMapper.Map<List<BlogDto>>(blogs);
 
-            return new PagedResultDto<BlogDto>(blogs.Count, (IReadOnlyList<BlogDto>)blogs);
-        }
-
-        public override async Task<BlogDto> GetAsync(EntityDto<Guid> input)
-        {
-            var blog = await _blogRepository.FirstOrDefaultAsync(x => x.Id == input.Id);
-
-            return blog != null ? MapToEntityDto(blog) : new BlogDto();
-        }
-
-        [AbpAuthorize(PermissionNames.Pages_Blogs)]
-        public override async Task<BlogDto> UpdateAsync(BlogDto input)
-        {
-            var blog = await _blogRepository.FirstOrDefaultAsync(x => x.Id == input.Id);
-            if (blog != null)
-            {
-                await _blogRepository.UpdateAsync(blog);
-            }
-
-            return new BlogDto();
+            return new PagedResultDto<BlogDto>(count, blogDtos);
         }
     }
 }
